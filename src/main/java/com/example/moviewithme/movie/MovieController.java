@@ -29,9 +29,9 @@ public class MovieController {
         owlService.addMovieIndividual(
                 ontologyId,
                 movie.getTitle(),
-                movie.getPremiere(),  // Przekazujesz datę premiery do metody w serwisie
-                movie.getSeries(),  // Przekazujesz informację czy to serial
-                movie.getRate()  // Przekazujesz ocenę filmu
+                movie.getPremiere(),
+                movie.getSeries(),
+                movie.getRate()
         );
         return "Dodano film: " + movie.getTitle();
     }

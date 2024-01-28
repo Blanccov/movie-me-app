@@ -66,6 +66,36 @@ public class OwlService {
         }
     }
 
+    public void addActor(String actorId, String firstName, String lastName) {
+        OWLNamedIndividual actorIndividual = ontologyManager.getOWLDataFactory()
+                .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + actorId));
+
+        OWLClass actorClass = ontologyManager.getOWLDataFactory()
+                .getOWLClass(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"));
+
+        OWLAnnotationProperty labelProperty = ontologyManager.getOWLDataFactory()
+                .getOWLAnnotationProperty(IRI.create("http://www.w3.org/2000/01/rdf-schema#label"));
+
+        if (!ontology.containsIndividualInSignature(actorIndividual.getIRI())) {
+            OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(actorIndividual);
+            OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(actorClass, actorIndividual);
+
+            String fullName = firstName + " " + lastName;
+            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(fullName));
+            OWLAxiom labelAxiom = ontologyManager.getOWLDataFactory().getOWLAnnotationAssertionAxiom(actorIndividual.getIRI(), labelAnnotation);
+
+            ontologyManager.addAxiom(ontology, declarationAxiom);
+            ontologyManager.addAxiom(ontology, typeAxiom);
+            ontologyManager.addAxiom(ontology, labelAxiom);
+
+            System.out.println("Dodano indywiduum do ontologii: " + actorIndividual + " z rdfs:label: " + fullName);
+        } else {
+            System.out.println("Indywiduum aktora już istnieje w ontologii: " + actorIndividual);
+        }
+    }
+
+
+
     public void saveOntology() {
         try {
             ontologyManager.saveOntology(ontology, IRI.create(new File("MovieWithMe.rdf")));

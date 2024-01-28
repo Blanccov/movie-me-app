@@ -270,6 +270,13 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasLabel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasLabel"/>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasName -->
 
 
@@ -1302,6 +1309,46 @@
         <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</MovieWithMe:hasRate>
         <MovieWithMe:hasTitle>Wonka</MovieWithMe:hasTitle>
         <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <MovieWithMe:hasLabel>John Doe</MovieWithMe:hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <MovieWithMe:hasLabel>John Doe</MovieWithMe:hasLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>John Doe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actornull -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actornull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <MovieWithMe:hasLabel>Leonardo DiCaprio</MovieWithMe:hasLabel>
     </owl:NamedIndividual>
     
 
