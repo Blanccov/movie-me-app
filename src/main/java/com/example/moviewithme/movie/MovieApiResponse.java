@@ -9,6 +9,9 @@ import java.util.List;
 
 public class MovieApiResponse {
 
+    @JsonProperty("id")
+    private int index; // Dodane pole "index"
+
     private String title;
 
     @JsonProperty("vote_average")
@@ -23,6 +26,20 @@ public class MovieApiResponse {
 
     @JsonProperty("genres")
     private List<GenreId> genreIds;
+
+    @JsonProperty("production_countries")
+    private List<Country> productionCountries;
+
+    @JsonProperty("credits")
+    private Credits credits;
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
 
     public LocalDate getReleaseDate() {
         return releaseDate;
@@ -58,5 +75,89 @@ public class MovieApiResponse {
 
     public void setGenres(List<GenreId> genreIds) {
         this.genreIds = genreIds;
+    }
+
+    public List<Country> getProductionCountries() {
+        return productionCountries;
+    }
+
+    public void setProductionCountries(List<Country> productionCountries) {
+        this.productionCountries = productionCountries;
+    }
+
+    public Credits getCredits() {
+        return credits;
+    }
+
+    public void setCredits(Credits credits) {
+        this.credits = credits;
+    }
+
+    // Klasa reprezentująca produkcję filmu w różnych krajach
+    public static class Country {
+
+        @JsonProperty("iso_3166_1")
+        private String iso31661;
+
+        public String getIso31661() {
+            return iso31661;
+        }
+
+        public void setIso31661(String iso31661) {
+            this.iso31661 = iso31661;
+        }
+    }
+
+    // Klasa reprezentująca pole "credits"
+    public static class Credits {
+
+        private List<Cast> cast;
+        private List<Crew> crew;
+
+        public List<Cast> getCast() {
+            return cast;
+        }
+
+        public void setCast(List<Cast> cast) {
+            this.cast = cast;
+        }
+
+        public List<Crew> getCrew() {
+            return crew;
+        }
+
+        public void setCrew(List<Crew> crew) {
+            this.crew = crew;
+        }
+    }
+
+    // Klasa reprezentująca elementy z tablicy "cast" w polu "credits"
+    public static class Cast {
+
+        @JsonProperty("id")
+        private Long id;
+
+        public Long getId() {
+            return id;
+        }
+
+        public void setId(Long id) {
+            this.id = id;
+        }
+    }
+
+    // Klasa reprezentująca elementy z tablicy "crew" w polu "credits"
+    public static class Crew {
+
+        @JsonProperty("id")
+        private Long id;
+
+        public Long getId() {
+            return id;
+        }
+
+        public void setId(Long id) {
+            this.id = id;
+        }
     }
 }

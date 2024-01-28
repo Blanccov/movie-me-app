@@ -27,7 +27,7 @@ public class MovieService {
         int successfulRequests = 0;
 
         for (String movieId : movieIds) {
-            String url = tmdbApiUrl + movieId + "?api_key=" + apiKey;
+            String url = tmdbApiUrl + movieId + "?api_key=" + apiKey + "&append_to_response=credits&original_language=en";
 
             try {
                 // Pobierz dane z TMDB API przy użyciu restTemplate
