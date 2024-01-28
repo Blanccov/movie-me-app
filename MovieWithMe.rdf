@@ -1316,6 +1316,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+        <rdfs:label>United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+        <rdfs:label>United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#countrynull -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#countrynull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+        <rdfs:label>United States</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Steven Spielberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre1 -->
 
 
@@ -1326,12 +1366,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+        <rdfs:label>Komedia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1 -->
 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
         <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1"/>
+        <MovieWithMe:isGenreOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2"/>
+        <MovieWithMe:isProducedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2"/>
         <MovieWithMe:hasTitle>Bone and Shadow</MovieWithMe:hasTitle>
     </owl:NamedIndividual>
     
@@ -1344,6 +1398,36 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
         <MovieWithMe:ratedMovie rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Napoleon"/>
         <MovieWithMe:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</MovieWithMe:ratingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Steven Spielberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Steven Spielberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriternull -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriternull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Steven Spielberg</rdfs:label>
     </owl:NamedIndividual>
     
 

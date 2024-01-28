@@ -1,47 +1,62 @@
 // MovieApiResponse.java
-
 package com.example.moviewithme.movie;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class MovieApiResponse {
 
-    @JsonProperty("Search")
-    private List<MovieData> results;
+    private String title;
 
-    public List<MovieData> getResults() {
-        return results;
+    @JsonProperty("vote_average")
+    private float voteAverage;
+
+    @JsonProperty("original_language")
+    private String originalLanguage;
+
+    @JsonProperty("release_date")
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate releaseDate;
+
+    @JsonProperty("genres")
+    private List<GenreId> genreIds;
+
+    public LocalDate getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setResults(List<MovieData> results) {
-        this.results = results;
+    public void setReleaseDate(LocalDate releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
-    public static class MovieData {
-        @JsonProperty("Title")
-        private String originalTitle;
+    public String getOriginalLanguage() {
+        return originalLanguage;
+    }
 
-        @JsonProperty("imdbID")
-        private String imdbID;
+    public String getTitle() {
+        return title;
+    }
 
-        // Gettery i settery
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-        public String getOriginalTitle() {
-            return originalTitle;
-        }
+    public float getVoteAverage() {
+        return voteAverage;
+    }
 
-        public void setOriginalTitle(String originalTitle) {
-            this.originalTitle = originalTitle;
-        }
+    public void setVoteAverage(float voteAverage) {
+        this.voteAverage = voteAverage;
+    }
 
-        public String getImdbID() {
-            return imdbID;
-        }
+    public List<GenreId> getGenres() {
+        return genreIds;
+    }
 
-        public void setImdbID(String imdbID) {
-            this.imdbID = imdbID;
-        }
+    public void setGenres(List<GenreId> genreIds) {
+        this.genreIds = genreIds;
     }
 }
