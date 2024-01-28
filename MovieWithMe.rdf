@@ -1149,20 +1149,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie123 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie123"/>
-    
-
-
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Moviemovie2 -->
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Moviemovie2"/>
-    
-
-
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Napoleon -->
 
 
@@ -1330,11 +1316,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie23434 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie23434">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
     </owl:NamedIndividual>
     
 

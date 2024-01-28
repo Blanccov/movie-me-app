@@ -2,24 +2,32 @@ package com.example.moviewithme.movie;
 
 import com.example.moviewithme.owlbase.OwlService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/movies")
+@RequestMapping("/api/movies")
 public class MovieController {
 
     private final OwlService owlService;
 
+    @Autowired
     public MovieController(OwlService owlService) {
         this.owlService = owlService;
     }
 
-    @PostMapping("/add/{movieId}")
-    public ResponseEntity<String> addMovie(@PathVariable String movieId) {
-        owlService.addMovieIndividual(movieId);
+    @PostMapping
+    public String addMovie(@RequestBody Movie movie) {
+        String ontologyId = "movie" + movie.getMovieId();  // Użyj ontologyId do generowania identyfikatora URI
+        owlService.addMovieIndividual(ontologyId, movie.getTitle());
+        return "Dodano film: " + movie.getTitle();
+    }
+
+    @PostMapping("/save")
+    public String saveOntology() {
         owlService.saveOntology();
-        return ResponseEntity.ok("Movie added successfully.");
+        return "Zapisano ontologię";
     }
 }
-

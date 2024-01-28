@@ -4,8 +4,8 @@ import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.springframework.stereotype.Service;
+
 import java.io.File;
-import java.util.Set;
 
 @Service
 public class OwlService {
@@ -22,8 +22,7 @@ public class OwlService {
             e.printStackTrace();
         }
     }
-
-    public void addMovieIndividual(String movieId) {
+    public void addMovieIndividual(String movieId, String title) {
         // Tworzenie indywidualności
         OWLNamedIndividual movieIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + movieId));
@@ -32,16 +31,22 @@ public class OwlService {
         OWLClass movieClass = ontologyManager.getOWLDataFactory()
                 .getOWLClass(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"));
 
+        // Tworzenie data property
+        OWLDataProperty hasTitleProperty = ontologyManager.getOWLDataFactory()
+                .getOWLDataProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasTitle"));
+
         // Sprawdzenie, czy indywiduum o danym URI już istnieje
         if (!ontology.containsIndividualInSignature(movieIndividual.getIRI())) {
             // Dodawanie indywidualności do ontologii
             OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(movieIndividual);
             OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(movieClass, movieIndividual);
+            OWLAxiom titleAxiom = ontologyManager.getOWLDataFactory().getOWLDataPropertyAssertionAxiom(hasTitleProperty, movieIndividual, title);
 
             ontologyManager.addAxiom(ontology, declarationAxiom);
             ontologyManager.addAxiom(ontology, typeAxiom);
+            ontologyManager.addAxiom(ontology, titleAxiom);
 
-            System.out.println("Dodano indywiduum do ontologii: " + movieIndividual);
+            System.out.println("Dodano indywiduum do ontologii: " + movieIndividual + " z hasTitle: " + title);
         } else {
             System.out.println("Indywiduum już istnieje w ontologii: " + movieIndividual);
         }
@@ -59,5 +64,4 @@ public class OwlService {
             e.printStackTrace();
         }
     }
-
 }
