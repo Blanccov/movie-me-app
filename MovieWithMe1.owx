@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe">
+    <Prefix name="" IRI="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ActionGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArtisticStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BAFTAReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CannesFilmFestivalReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassicStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComedyGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComicBookAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DramaGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExperimentalStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FilmFestivalReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FranceProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FutureTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GermanyProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoldenGlobeReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistoricalTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HorrorGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JapanProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiteraryAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MainstreamStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovieCast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovieDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OscarReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherAwardReward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PresentTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RomanceGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScienceFictionGenre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screenwriter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Studies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrueStoryAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UKProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USAProductionCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoGameAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ViewerRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDirecting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProducing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActingBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDirectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLowerRatedThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCriticRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPremiere"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasViewerRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calah_Lane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Scarpa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joaquin_Phoenix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Middle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Napoleon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paul_King"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ridley_Scott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timothe_Chalmet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vanessa_Kirby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wonka"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CriticRating"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Good"/>
+            <NamedIndividual IRI="#Low"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ViewerRating"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Good"/>
+            <NamedIndividual IRI="#Low"/>
+            <NamedIndividual IRI="#Middle"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ActionGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArtisticStyle"/>
+        <Class IRI="#Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAFTAReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CannesFilmFestivalReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicStyle"/>
+        <Class IRI="#Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComedyGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComicBookAdaptation"/>
+        <Class IRI="#Adaptation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticRating"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DramaGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExperimentalStyle"/>
+        <Class IRI="#Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FilmFestivalReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FranceProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FutureTime"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GermanyProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoldenGlobeReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistoricalTime"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HorrorGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JapanProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiteraryAdaptation"/>
+        <Class IRI="#Adaptation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MainstreamStyle"/>
+        <Class IRI="#Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isProducedBy"/>
+            <Class IRI="#ProductionCountry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCriticRating"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasViewerRating"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OscarReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherAwardReward"/>
+        <Class IRI="#Reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PresentTime"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RomanceGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScienceFictionGenre"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrueStoryAdaptation"/>
+        <Class IRI="#Adaptation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UKProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USAProductionCountry"/>
+        <Class IRI="#ProductionCountry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoGameAdaptation"/>
+        <Class IRI="#Adaptation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ViewerRating"/>
+        <Class IRI="#Rating"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActionGenre"/>
+        <Class IRI="#ComedyGenre"/>
+        <Class IRI="#DramaGenre"/>
+        <Class IRI="#HorrorGenre"/>
+        <Class IRI="#OtherGenre"/>
+        <Class IRI="#RomanceGenre"/>
+        <Class IRI="#ScienceFictionGenre"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Director"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adaptation"/>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Movie"/>
+        <Class IRI="#MovieCast"/>
+        <Class IRI="#MovieDirector"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#ProductionCountry"/>
+        <Class IRI="#Rating"/>
+        <Class IRI="#Reward"/>
+        <Class IRI="#Studies"/>
+        <Class IRI="#Style"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArtisticStyle"/>
+        <Class IRI="#ClassicStyle"/>
+        <Class IRI="#ExperimentalStyle"/>
+        <Class IRI="#MainstreamStyle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BAFTAReward"/>
+        <Class IRI="#CannesFilmFestivalReward"/>
+        <Class IRI="#FilmFestivalReward"/>
+        <Class IRI="#GoldenGlobeReward"/>
+        <Class IRI="#OscarReward"/>
+        <Class IRI="#OtherAwardReward"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ComicBookAdaptation"/>
+        <Class IRI="#LiteraryAdaptation"/>
+        <Class IRI="#TrueStoryAdaptation"/>
+        <Class IRI="#VideoGameAdaptation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FranceProductionCountry"/>
+        <Class IRI="#GermanyProductionCountry"/>
+        <Class IRI="#JapanProductionCountry"/>
+        <Class IRI="#OtherProductionCountry"/>
+        <Class IRI="#UKProductionCountry"/>
+        <Class IRI="#USAProductionCountry"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FutureTime"/>
+        <Class IRI="#HistoricalTime"/>
+        <Class IRI="#PresentTime"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Calah_Lane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screenwriter"/>
+        <NamedIndividual IRI="#David_Scarpa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Joaquin_Phoenix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Napoleon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Paul_King"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Screenwriter"/>
+        <NamedIndividual IRI="#Paul_King"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Ridley_Scott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Timothe_Chalmet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Vanessa_Kirby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Wonka"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+        <NamedIndividual IRI="#Good"/>
+        <NamedIndividual IRI="#Middle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+        <NamedIndividual IRI="#Middle"/>
+        <NamedIndividual IRI="#Low"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActingBy"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <NamedIndividual IRI="#Joaquin_Phoenix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActingBy"/>
+        <NamedIndividual IRI="#Wonka"/>
+        <NamedIndividual IRI="#Timothe_Chalmet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectedBy"/>
+        <NamedIndividual IRI="#Wonka"/>
+        <NamedIndividual IRI="#Paul_King"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCriticRating"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCriticRating"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCriticRating"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCriticRating"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasViewerRating"/>
+        <NamedIndividual IRI="#Napoleon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProducing"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLowerRatedThan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasActing"/>
+        <ObjectProperty IRI="#isActingBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDirecting"/>
+        <ObjectProperty IRI="#isDirectedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasProducing"/>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLowerRatedThan"/>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isActingBy"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDirectedBy"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isActingBy"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDirectedBy"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#ProductionCountry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTopRatedThan"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasViewerRating"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCriticRating"/>
+        <Class IRI="#Movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPremiere"/>
+        <Class IRI="#Movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasViewerRating"/>
+        <Class IRI="#Movie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCriticRating"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPremiere"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasViewerRating"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Calah_Lane</IRI>
+        <Literal>Calah Lane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#David_Scarpa</IRI>
+        <Literal>David Scarpa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Joaquin_Phoenix</IRI>
+        <Literal>Joaquin Phoenix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Paul_King</IRI>
+        <Literal>Paul King</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ridley_Scott</IRI>
+        <Literal>Ridley Scott</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Timothe_Chalmet</IRI>
+        <Literal>Timote Chalamet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vanessa_Kirby</IRI>
+        <Literal>Vanessa Kirby</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

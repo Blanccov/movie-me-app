@@ -1,0 +1,1380 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe/"
+     xml:base="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:MovieWithMe="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasActing -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasActing">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isActingBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasAdaptation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasAdaptation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasConquered -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasConquered">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasNominatedTo"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isConqueringBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasDirecting -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasDirecting">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isDirectedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasGenreBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasGenreBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasNominatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasNominatedTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isNominatingBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasProducing -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasProducing">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRating -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasScreenwriting -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasScreenwriting">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSreenWritingBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isActingBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isActingBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isConqueringBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isConqueringBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isNominatingBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isDirectedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isDirectedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isLowerRatedThan -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isLowerRatedThan">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isTopRatedThan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isNominatingBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isNominatingBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSreenWritingBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSreenWritingBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isTopRatedThan -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isTopRatedThan">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ratedMovie -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ratedMovie">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasPremiere -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasPremiere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasTitle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSeries -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSeries">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ratingValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ratingValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ActionMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ActionMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Action"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AdaptationMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AdaptationMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericaCountry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericaCountry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericanMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericanMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericaCountry"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AnimeMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AnimeMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Anime"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AwardWinMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AwardWinMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasConquered"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRate"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#BAFTA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#BAFTA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComedyMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComedyMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Comedy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComicBookMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComicBookMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComicBookAdaptation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#DramaMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#DramaMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Drama"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeCountry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeCountry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeCountry"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#FeatureMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#FeatureMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSeries"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoodRatingMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoodRatingMovie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#HorrorMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#HorrorMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Horror"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#KanadaMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#KanadaMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Kanada"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryAdaptation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LowRatingMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LowRatingMovie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MiddleRatingMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MiddleRatingMovie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasRate"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSeries"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#NewMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#NewMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasPremiere"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T07:00:01</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#NominatedMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#NominatedMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasNominatedTo"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#OldMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#OldMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasPremiere"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T07:00:00</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Oscar -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Oscar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#RomanceMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#RomanceMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Romance"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ScienceFictionMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ScienceFictionMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ScienceFiction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#SeriesMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#SeriesMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSeries"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#TrueStoryMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#TrueStoryMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#TrueStoryAdaptation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UKMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UKMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UK"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#USAMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#USAMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#USA"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#VideoGameMovie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#VideoGameMovie">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isAdaptationOf"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#VideoGamesAdaptation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Action -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Anime -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Anime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Calah_Lane -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Calah_Lane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Calah Lane</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Comedy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Comedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComicBookAdaptation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ComicBookAdaptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#David_Scarpa -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#David_Scarpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>David Scarpa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Drama -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Fantasy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes"/>
+        <rdfs:label>Best Actor in a Comedy or Musical</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Horror -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Joaquin_Phoenix -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Joaquin_Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Joaquin Phoenix</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Kanada -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Kanada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericaCountry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryAdaptation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryAdaptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie123"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Moviemovie2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Moviemovie2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Napoleon -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Napoleon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Joaquin_Phoenix"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Ridley_Scott"/>
+        <MovieWithMe:isGenreOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Action"/>
+        <MovieWithMe:hasTitle>Napoleon</MovieWithMe:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Paul_King -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Paul_King">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <MovieWithMe:hasScreenwriting rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Wonka"/>
+        <rdfs:label>Paul King</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Ridley_Scott -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Ridley_Scott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Ridley Scott</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Romance -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ScienceFiction -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#ScienceFiction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Timothe_Chalmet -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Timothe_Chalmet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Timote Chalamet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#TrueStoryAdaptation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#TrueStoryAdaptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UK -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#EuropeCountry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#USA -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#AmericaCountry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User"/>
+        <MovieWithMe:hasRating rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#rating1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#User"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Vanessa_Kirby -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Vanessa_Kirby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Vanessa Kirby</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#VideoGamesAdaptation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#VideoGamesAdaptation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Wonka -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Wonka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasConquered rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#GoldenGlobes1"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Timothe_Chalmet"/>
+        <MovieWithMe:isAdaptationOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#LiteraryAdaptation"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Paul_King"/>
+        <MovieWithMe:isGenreOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Fantasy"/>
+        <MovieWithMe:isProducedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Kanada"/>
+        <MovieWithMe:isProducedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#UK"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-01-01T07:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Wonka</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasTitle>Bone and Shadow</MovieWithMe:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#rating1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#rating1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+        <MovieWithMe:ratedMovie rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Napoleon"/>
+        <MovieWithMe:ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</MovieWithMe:ratingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Adaptation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Rating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Reward"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.6) https://github.com/owlcs/owlapi/ -->
+
+
