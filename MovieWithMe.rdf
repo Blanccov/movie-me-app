@@ -1329,12 +1329,207 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1111 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie122222 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie122222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00^^xsd:dateTime</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00^^xsd:dateTimeStamp</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>&quot;2024-01-28T12:00:00&quot;^^xsd:dateTimeStamp</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie18 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00^^xsd:dateTime</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>&quot;2024-01-28T12:00:00&quot;^^xsd:dateTime</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2342 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2342">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie23434 -->
 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie23434">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
         <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2512 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie2512">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00:00^^xsd:dateTime</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie29 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
     </owl:NamedIndividual>
     
 

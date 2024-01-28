@@ -3,6 +3,7 @@ package com.example.moviewithme.owlbase;
 import org.semanticweb.owlapi.model.*;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
+import org.semanticweb.owlapi.vocab.OWL2Datatype;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -77,8 +78,9 @@ public class OwlService {
         }
     }
 
-    private String formatDate(LocalDateTime dateTime) {
+    private OWLLiteral formatDate(LocalDateTime dateTime) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
-        return dateTime.format(formatter);
+        String formattedDate = dateTime.format(formatter);
+        return ontologyManager.getOWLDataFactory().getOWLLiteral(formattedDate, OWL2Datatype.XSD_DATE_TIME);
     }
 }
