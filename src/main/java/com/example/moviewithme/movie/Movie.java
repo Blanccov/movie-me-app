@@ -1,6 +1,7 @@
 package com.example.moviewithme.movie;
 
 import jakarta.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table
@@ -22,20 +23,35 @@ public class Movie {
     private String title;
 
     @Column(name = "movie_id")
-    private Long movieId; // Nowa zmienna movieId
+    private Long movieId;
+
+    @Column(name = "premiere")
+    private LocalDateTime premiere;
+
+    @Column(name = "is_series")
+    private boolean isSeries;
+
+    @Column(name = "rate")
+    private float rate;
 
     public Movie() {
     }
 
-    public Movie(Long id, String title, Long movieId) {
+    public Movie(Long id, String title, Long movieId, LocalDateTime premiere, boolean isSeries, float rate) {
         this.id = id;
         this.title = title;
         this.movieId = movieId;
+        this.premiere = premiere;
+        this.isSeries = isSeries;
+        this.rate = rate;
     }
 
-    public Movie(String title, Long movieId) {
+    public Movie(String title, Long movieId, LocalDateTime premiere, boolean isSeries, float rate) {
         this.title = title;
         this.movieId = movieId;
+        this.premiere = premiere;
+        this.isSeries = isSeries;
+        this.rate = rate;
     }
 
     public Long getId() {
@@ -62,12 +78,39 @@ public class Movie {
         this.movieId = movieId;
     }
 
+    public LocalDateTime getPremiere() {
+        return premiere;
+    }
+
+    public void setPremiere(LocalDateTime premiere) {
+        this.premiere = premiere;
+    }
+
+    public boolean getSeries() {
+        return isSeries;
+    }
+
+    public void setSeries(boolean series) {
+        isSeries = series;
+    }
+
+    public float getRate() {
+        return rate;
+    }
+
+    public void setRate(float rate) {
+        this.rate = rate;
+    }
+
     @Override
     public String toString() {
         return "Movie{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", movieId=" + movieId +
+                ", premiere=" + premiere +
+                ", isSeries=" + isSeries +
+                ", rate=" + rate +
                 '}';
     }
 }

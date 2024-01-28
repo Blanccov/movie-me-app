@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 @RestController
 @RequestMapping("/api/movies")
 public class MovieController {
@@ -20,8 +25,14 @@ public class MovieController {
 
     @PostMapping
     public String addMovie(@RequestBody Movie movie) {
-        String ontologyId = "movie" + movie.getMovieId();  // Użyj ontologyId do generowania identyfikatora URI
-        owlService.addMovieIndividual(ontologyId, movie.getTitle());
+        String ontologyId = "movie" + movie.getMovieId();
+        owlService.addMovieIndividual(
+                ontologyId,
+                movie.getTitle(),
+                movie.getPremiere(),  // Przekazujesz datę premiery do metody w serwisie
+                movie.getSeries(),  // Przekazujesz informację czy to serial
+                movie.getRate()  // Przekazujesz ocenę filmu
+        );
         return "Dodano film: " + movie.getTitle();
     }
 

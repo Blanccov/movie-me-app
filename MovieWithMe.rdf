@@ -1316,6 +1316,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:hasPremiere>2024-01-28T12:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Alicja w Krainie Czarów</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie23434 -->
 
 
