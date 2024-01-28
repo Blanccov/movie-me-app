@@ -94,7 +94,54 @@ public class OwlService {
         }
     }
 
+    public void addGenre(String genreId, String label) {
+        OWLNamedIndividual genreIndividual = ontologyManager.getOWLDataFactory()
+                .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + genreId));
 
+        OWLClass genreClass = ontologyManager.getOWLDataFactory()
+                .getOWLClass(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"));
+
+        OWLAnnotationProperty labelProperty = ontologyManager.getOWLDataFactory()
+                .getOWLAnnotationProperty(IRI.create("http://www.w3.org/2000/01/rdf-schema#label"));
+
+        if (!ontology.containsIndividualInSignature(genreIndividual.getIRI())) {
+            OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(genreIndividual);
+            OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(genreClass, genreIndividual);
+
+            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(label));
+            OWLAxiom labelAxiom = ontologyManager.getOWLDataFactory().getOWLAnnotationAssertionAxiom(genreIndividual.getIRI(), labelAnnotation);
+
+            ontologyManager.addAxiom(ontology, declarationAxiom);
+            ontologyManager.addAxiom(ontology, typeAxiom);
+            ontologyManager.addAxiom(ontology, labelAxiom);
+
+            System.out.println("Dodano indywiduum do ontologii: " + genreIndividual + " z rdfs:label: " + label);
+        } else {
+            System.out.println("Indywiduum gatunku już istnieje w ontologii: " + genreIndividual);
+        }
+    }
+
+    public void addActingRelation(String movieId, String actorId) {
+        OWLNamedIndividual movieIndividual = ontologyManager.getOWLDataFactory()
+                .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + movieId));
+
+        OWLNamedIndividual actorIndividual = ontologyManager.getOWLDataFactory()
+                .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + actorId));
+
+        OWLObjectProperty isActingByProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isActingBy"));
+
+        // Sprawdzamy, czy indywidualne istnieją w ontologii
+        if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(actorIndividual.getIRI())) {
+            // Tworzymy relację między filmem a aktorem
+            OWLAxiom actingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isActingByProperty, movieIndividual, actorIndividual);
+            ontologyManager.addAxiom(ontology, actingAxiom);
+
+            System.out.println("Dodano relację isActingBy między filmem " + movieIndividual + " a aktorem " + actorIndividual);
+        } else {
+            System.out.println("Nie można dodać relacji isActingBy, ponieważ film lub aktor nie istnieje w ontologii.");
+        }
+    }
 
     public void saveOntology() {
         try {

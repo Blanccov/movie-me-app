@@ -33,6 +33,7 @@ public class MovieController {
                 movie.getSeries(),
                 movie.getRate()
         );
+        owlService.saveOntology();
         return "Dodano film: " + movie.getTitle();
     }
 
