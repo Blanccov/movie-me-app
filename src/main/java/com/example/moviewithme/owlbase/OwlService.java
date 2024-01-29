@@ -211,17 +211,26 @@ public class OwlService {
         OWLObjectProperty isActingByProperty = ontologyManager.getOWLDataFactory()
                 .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isActingBy"));
 
+        OWLObjectProperty hasActingProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasActing"));
+
         // Sprawdzamy, czy indywidualne istnieją w ontologii
         if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(actorIndividual.getIRI())) {
-            // Tworzymy relację między filmem a aktorem
+            // Tworzymy relację między filmem a aktorem (isActingBy)
             OWLAxiom actingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isActingByProperty, movieIndividual, actorIndividual);
             ontologyManager.addAxiom(ontology, actingAxiom);
 
+            // Tworzymy odwrotną relację między aktorem a filmem (hasActing)
+            OWLAxiom hasActingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(hasActingProperty, actorIndividual, movieIndividual);
+            ontologyManager.addAxiom(ontology, hasActingAxiom);
+
             System.out.println("Dodano relację isActingBy między filmem " + movieIndividual + " a aktorem " + actorIndividual);
+            System.out.println("Dodano odwrotną relację hasActing między aktorem " + actorIndividual + " a filmem " + movieIndividual);
         } else {
-            System.out.println("Nie można dodać relacji isActingBy, ponieważ film lub aktor nie istnieje w ontologii.");
+            System.out.println("Nie można dodać relacji isActingBy lub hasActing, ponieważ film lub aktor nie istnieje w ontologii.");
         }
     }
+
 
     public void addDirectingRelation(String movieId, String directorId) {
         OWLNamedIndividual movieIndividual = ontologyManager.getOWLDataFactory()
@@ -233,15 +242,20 @@ public class OwlService {
         OWLObjectProperty isDirectedByProperty = ontologyManager.getOWLDataFactory()
                 .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isDirectedBy"));
 
-        // Sprawdzamy, czy indywidualne istnieją w ontologii
+        OWLObjectProperty hasDirectingProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasDirecting"));
+
         if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(directorIndividual.getIRI())) {
-            // Tworzymy relację między filmem a reżyserem
             OWLAxiom directingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isDirectedByProperty, movieIndividual, directorIndividual);
             ontologyManager.addAxiom(ontology, directingAxiom);
 
+            OWLAxiom hasDirectingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(hasDirectingProperty, directorIndividual, movieIndividual);
+            ontologyManager.addAxiom(ontology, hasDirectingAxiom);
+
             System.out.println("Dodano relację isDirectedBy między filmem " + movieIndividual + " a reżyserem " + directorIndividual);
+            System.out.println("Dodano odwrotną relację hasDirecting między reżyserem " + directorIndividual + " a filmem " + movieIndividual);
         } else {
-            System.out.println("Nie można dodać relacji isDirectedBy, ponieważ film lub reżyser nie istnieje w ontologii.");
+            System.out.println("Nie można dodać relacji isDirectedBy lub hasDirecting, ponieważ film lub reżyser nie istnieje w ontologii.");
         }
     }
     public void addWritingRelation(String movieId, String screenwriterId) {
@@ -254,15 +268,20 @@ public class OwlService {
         OWLObjectProperty isWrittenByProperty = ontologyManager.getOWLDataFactory()
                 .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isSreenWritingBy"));
 
-        // Sprawdzamy, czy indywidualne istnieją w ontologii
+        OWLObjectProperty hasWritingProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasScreenwriting"));
+
         if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(screenwriterIndividual.getIRI())) {
-            // Tworzymy relację między filmem a scenarzystą
             OWLAxiom writingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isWrittenByProperty, movieIndividual, screenwriterIndividual);
             ontologyManager.addAxiom(ontology, writingAxiom);
 
+            OWLAxiom hasWritingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(hasWritingProperty, screenwriterIndividual, movieIndividual);
+            ontologyManager.addAxiom(ontology, hasWritingAxiom);
+
             System.out.println("Dodano relację isScreenwritingBy między filmem " + movieIndividual + " a scenarzystą " + screenwriterIndividual);
+            System.out.println("Dodano odwrotną relację hasWriting między scenarzystą " + screenwriterIndividual + " a filmem " + movieIndividual);
         } else {
-            System.out.println("Nie można dodać relacji isScreenwritingBy, ponieważ film lub scenarzysta nie istnieje w ontologii.");
+            System.out.println("Nie można dodać relacji isScreenwritingBy lub hasWriting, ponieważ film lub scenarzysta nie istnieje w ontologii.");
         }
     }
 
@@ -276,17 +295,23 @@ public class OwlService {
         OWLObjectProperty isProducedByProperty = ontologyManager.getOWLDataFactory()
                 .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isProducedBy"));
 
-        // Sprawdzamy, czy indywidualne istnieją w ontologii
+        OWLObjectProperty hasProducingProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasProducing"));
+
         if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(countryIndividual.getIRI())) {
-            // Tworzymy relację między filmem a krajem produkcji
             OWLAxiom producingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isProducedByProperty, movieIndividual, countryIndividual);
             ontologyManager.addAxiom(ontology, producingAxiom);
 
+            OWLAxiom hasProducingAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(hasProducingProperty, countryIndividual, movieIndividual);
+            ontologyManager.addAxiom(ontology, hasProducingAxiom);
+
             System.out.println("Dodano relację isProducedBy między filmem " + movieIndividual + " a krajem " + countryIndividual);
+            System.out.println("Dodano odwrotną relację hasProducing między krajem " + countryIndividual + " a filmem " + movieIndividual);
         } else {
-            System.out.println("Nie można dodać relacji isProducedBy, ponieważ film lub kraj produkcji nie istnieje w ontologii.");
+            System.out.println("Nie można dodać relacji isProducedBy lub hasProducing, ponieważ film lub kraj produkcji nie istnieje w ontologii.");
         }
     }
+
     public void addGenreRelation(String movieId, String genreId) {
         OWLNamedIndividual movieIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + movieId));
@@ -297,17 +322,23 @@ public class OwlService {
         OWLObjectProperty isGenreOfProperty = ontologyManager.getOWLDataFactory()
                 .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#isGenreOf"));
 
-        // Sprawdzamy, czy indywidualne istnieją w ontologii
+        OWLObjectProperty hasGenreByProperty = ontologyManager.getOWLDataFactory()
+                .getOWLObjectProperty(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#hasGenreBy"));
+
         if (ontology.containsIndividualInSignature(movieIndividual.getIRI()) && ontology.containsIndividualInSignature(genreIndividual.getIRI())) {
-            // Tworzymy relację między filmem a gatunkiem
             OWLAxiom genreAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(isGenreOfProperty, movieIndividual, genreIndividual);
             ontologyManager.addAxiom(ontology, genreAxiom);
 
+            OWLAxiom hasGenreByAxiom = ontologyManager.getOWLDataFactory().getOWLObjectPropertyAssertionAxiom(hasGenreByProperty, genreIndividual, movieIndividual);
+            ontologyManager.addAxiom(ontology, hasGenreByAxiom);
+
             System.out.println("Dodano relację isGenreOf między filmem " + movieIndividual + " a gatunkiem " + genreIndividual);
+            System.out.println("Dodano odwrotną relację hasGenreBy między gatunkiem " + genreIndividual + " a filmem " + movieIndividual);
         } else {
-            System.out.println("Nie można dodać relacji isGenreOf, ponieważ film lub gatunek nie istnieje w ontologii.");
+            System.out.println("Nie można dodać relacji isGenreOf lub hasGenreBy, ponieważ film lub gatunek nie istnieje w ontologii.");
         }
     }
+
 
     public void saveOntology() {
         try {

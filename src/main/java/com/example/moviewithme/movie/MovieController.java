@@ -24,11 +24,13 @@ public class MovieController {
         this.movieService = movieService;
     }
 
-    @GetMapping("/titles")
-    public List<MovieApiResponse> getMoviesTitles() {
+    @GetMapping("/titles/{startId}/{endId}")
+    public List<MovieApiResponse> getMoviesTitles(
+            @PathVariable int startId,
+            @PathVariable int endId) {
         List<MovieApiResponse> movieList = new ArrayList<>();
 
-        for (int i = 1; i <= 5000; i++) {
+        for (int i = startId; i <= endId; i++) {
             String imdbId = String.valueOf(i);
             List<MovieApiResponse> moviesForId = movieService.getMoviesForIds(Collections.singletonList(imdbId));
 
@@ -116,4 +118,5 @@ public class MovieController {
         );
         return "Dodano film: " + movieApiResponse.getTitle();
     }
+
 }

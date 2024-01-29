@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -25,16 +26,15 @@ public class MovieService {
 
     public List<MovieApiResponse> getMoviesForIds(List<String> movieIds) {
         List<MovieApiResponse> movieResponses = new ArrayList<>();
-        int successfulRequests = 0;
 
         for (String movieId : movieIds) {
-            String url = tmdbApiUrl + movieId + "?api_key=" + apiKey + "&append_to_response=credits&original_language=en";
+            String url = tmdbApiUrl + movieId + "?api_key=" + apiKey + "&append_to_response=credits";
 
             try {
                 // Retrieve data from TMDB API using restTemplate
                 MovieApiResponse movieResponse = restTemplate.getForObject(url, MovieApiResponse.class);
 
-                if (movieResponse != null && "en".equals(movieResponse.getOriginalLanguage())) {
+                if (movieResponse != null && "en".equals(movieResponse.getOriginalLanguage()) && movieResponse.getReleaseDate() != null && movieResponse.getReleaseDate().isAfter(LocalDate.of(1984, 1, 1))) {
                     // Limit the number of cast members to the first 5
                     if (movieResponse.getCredits() != null && movieResponse.getCredits().getCast() != null) {
                         movieResponse.getCredits().setCast(movieResponse.getCredits().getCast().subList(0, Math.min(5, movieResponse.getCredits().getCast().size())));
@@ -61,7 +61,6 @@ public class MovieService {
                     }
 
                     movieResponses.add(movieResponse);
-                    successfulRequests++;
                 } else if (movieResponse != null) {
                     System.out.println("Movie with ID " + movieId + " is not in English.");
                 } else {
@@ -74,7 +73,6 @@ public class MovieService {
                 e.printStackTrace();
             }
         }
-        System.out.println("Number of successful requests: " + successfulRequests);
         return movieResponses;
     }
 }
