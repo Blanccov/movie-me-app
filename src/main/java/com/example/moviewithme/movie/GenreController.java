@@ -17,12 +17,12 @@ public class GenreController {
 
     @PostMapping()
     public String addGenre(@RequestBody Genre genre) {
-        String ontologyId = "genre" + genre.getGenreId();
+        String ontologyId = "genre" + genre.getId();
 
-        owlService.addGenre(ontologyId, genre.getLabel());
+        owlService.addGenre(ontologyId, genre.getName());
         owlService.saveOntology();
 
-        return "Dodano gatunek: " + genre.getLabel() + " z identyfikatorem: " + genre.getGenreId();
+        return "Dodano gatunek: " + genre.getName() + " z identyfikatorem: " + genre.getId();
     }
 
     @PostMapping("/{genreId}/isGenreOf/{movieId}")

@@ -28,7 +28,7 @@ public class MovieController {
     public List<MovieApiResponse> getMoviesTitles() {
         List<MovieApiResponse> movieList = new ArrayList<>();
 
-        for (int i = 1; i <= 50; i++) {
+        for (int i = 1; i <= 5000; i++) {
             String imdbId = String.valueOf(i);
             List<MovieApiResponse> moviesForId = movieService.getMoviesForIds(Collections.singletonList(imdbId));
 
@@ -63,12 +63,30 @@ public class MovieController {
 
                 List<MovieApiResponse.Cast> castList = movieApiResponse.getCredits().getCast();
                 if (castList != null) {
-                    for (MovieApiResponse.Cast crewMember : castList) {
-                        if ("Acting".equals(crewMember.getJob())) {
-                            String actorOntologyId = "actor" + crewMember.getId();
-                            owlService.addActor(actorOntologyId, crewMember.getName());
+                    for (MovieApiResponse.Cast castMember : castList) {
+                        if ("Acting".equals(castMember.getJob())) {
+                            String actorOntologyId = "actor" + castMember.getId();
+                            owlService.addActor(actorOntologyId, castMember.getName());
                             owlService.addActingRelation(ontologyId, actorOntologyId);
                         }
+                    }
+                }
+
+                List<Genre> genreList = movieApiResponse.getGenres();
+                if (genreList != null) {
+                    for (Genre genre : genreList) {
+                            String genreOntologyId = "genre" + genre.getId();
+                            owlService.addGenre(genreOntologyId, genre.getName());
+                            owlService.addGenreRelation(ontologyId, genreOntologyId);
+                    }
+                }
+
+                List<MovieProductionCountry> countriesList = movieApiResponse.getProductionCountries();
+                if (countriesList != null) {
+                    for (MovieProductionCountry countires : countriesList) {
+                        String countryOntologyId = "country" + countires.getIso31661();
+                        owlService.addProductionCountry(countryOntologyId, countires.getName());
+                        owlService.addProducingRelation(ontologyId, countryOntologyId);
                     }
                 }
                 saveOntology();

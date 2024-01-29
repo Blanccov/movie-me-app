@@ -17,12 +17,12 @@ public class MovieProductionCountryController {
 
     @PostMapping
     public String addProductionCountry(@RequestBody MovieProductionCountry country) {
-        String ontologyId = "country" + country.getCountryId();
+        String ontologyId = "country" + country.getIso31661();
 
-        owlService.addProductionCountry(ontologyId, country.getLabel());
+        owlService.addProductionCountry(ontologyId, country.getName());
         owlService.saveOntology();
 
-        return "Dodano kraj produkcji: " + country.getLabel() + " z identyfikatorem: " + country.getCountryId();
+        return "Dodano kraj produkcji: " + country.getName() + " z identyfikatorem: " + country.getIso31661();
     }
 
     @PostMapping("/{movieProductionCountryId}/produces/{movieId}")

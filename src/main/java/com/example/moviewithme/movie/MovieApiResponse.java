@@ -25,10 +25,10 @@ public class MovieApiResponse {
     private LocalDate releaseDate;
 
     @JsonProperty("genres")
-    private List<GenreId> genreIds;
+    private List<Genre> genreIds;
 
     @JsonProperty("production_countries")
-    private List<Country> productionCountries;
+    private List<MovieProductionCountry> productionCountries;
 
     @JsonProperty("credits")
     private Credits credits;
@@ -80,19 +80,19 @@ public class MovieApiResponse {
         this.voteAverage = voteAverage;
     }
 
-    public List<GenreId> getGenres() {
+    public List<Genre> getGenres() {
         return genreIds;
     }
 
-    public void setGenres(List<GenreId> genreIds) {
+    public void setGenres(List<Genre> genreIds) {
         this.genreIds = genreIds;
     }
 
-    public List<Country> getProductionCountries() {
+    public List<MovieProductionCountry> getProductionCountries() {
         return productionCountries;
     }
 
-    public void setProductionCountries(List<Country> productionCountries) {
+    public void setProductionCountries(List<MovieProductionCountry> productionCountries) {
         this.productionCountries = productionCountries;
     }
 
@@ -104,23 +104,6 @@ public class MovieApiResponse {
         this.credits = credits;
     }
 
-    // Klasa reprezentująca produkcję filmu w różnych krajach
-    public static class Country {
-
-        @JsonProperty("iso_3166_1")
-        private String iso31661;
-
-        @JsonProperty("name")
-        private String name;
-
-        public String getIso31661() {
-            return iso31661;
-        }
-
-        public void setIso31661(String iso31661) {
-            this.iso31661 = iso31661;
-        }
-    }
 
     // Klasa reprezentująca pole "credits"
     public static class Credits {

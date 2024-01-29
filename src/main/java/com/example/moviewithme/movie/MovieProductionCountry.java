@@ -1,30 +1,23 @@
 package com.example.moviewithme.movie;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class MovieProductionCountry {
-    private Long countryId;
-    private String label;
+    @JsonProperty("iso_3166_1")
+    private String iso31661;
 
-    public MovieProductionCountry() {
+    @JsonProperty("name")
+    private String name;
+
+    public String getIso31661() {
+        return iso31661;
     }
 
-    public MovieProductionCountry(Long countryId, String label) {
-        this.countryId = countryId;
-        this.label = label;
+    public String getName() {
+        return name;
     }
 
-    public Long getCountryId() {
-        return countryId;
-    }
-
-    public void setCountryId(Long countryId) {
-        this.countryId = countryId;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
+    public void setIso31661(String iso31661) {
+        this.iso31661 = iso31661;
     }
 }

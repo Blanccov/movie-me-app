@@ -1,30 +1,30 @@
 package com.example.moviewithme.movie;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Genre {
-    private Long genreId;
-    private String label;
+    @JsonProperty("id")
+    private Long id;
+
+    @JsonProperty("name")
+    private String name;
 
     public Genre() {
     }
 
-    public Genre(Long genreId, String label) {
-        this.genreId = genreId;
-        this.label = label;
+    public String getName() {
+        return name;
     }
 
-    public Long getGenreId() {
-        return genreId;
+    public Genre(Long id) {
+        this.id = id;
     }
 
-    public void setGenreId(Long genreId) {
-        this.genreId = genreId;
+    public Long getId() {
+        return id;
     }
 
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
+    public void setId(Long id) {
+        this.id = id;
     }
 }
