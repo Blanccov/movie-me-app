@@ -1,6 +1,8 @@
 package com.example.moviewithme.movie;
 
 import jakarta.persistence.*;
+
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -26,7 +28,7 @@ public class Movie {
     private Long movieId;
 
     @Column(name = "premiere")
-    private LocalDateTime premiere;
+    private LocalDate premiere;
 
     @Column(name = "is_series")
     private boolean isSeries;
@@ -37,7 +39,7 @@ public class Movie {
     public Movie() {
     }
 
-    public Movie(Long id, String title, Long movieId, LocalDateTime premiere, boolean isSeries, float rate) {
+    public Movie(Long id, String title, Long movieId, LocalDate premiere, boolean isSeries, float rate) {
         this.id = id;
         this.title = title;
         this.movieId = movieId;
@@ -46,7 +48,7 @@ public class Movie {
         this.rate = rate;
     }
 
-    public Movie(String title, Long movieId, LocalDateTime premiere, boolean isSeries, float rate) {
+    public Movie(String title, Long movieId, LocalDate premiere, boolean isSeries, float rate) {
         this.title = title;
         this.movieId = movieId;
         this.premiere = premiere;
@@ -78,11 +80,11 @@ public class Movie {
         this.movieId = movieId;
     }
 
-    public LocalDateTime getPremiere() {
+    public LocalDate getPremiere() {
         return premiere;
     }
 
-    public void setPremiere(LocalDateTime premiere) {
+    public void setPremiere(LocalDate premiere) {
         this.premiere = premiere;
     }
 
@@ -90,8 +92,9 @@ public class Movie {
         return isSeries;
     }
 
-    public void setSeries(boolean series) {
+    public boolean setSeries(boolean series) {
         isSeries = series;
+        return series;
     }
 
     public float getRate() {

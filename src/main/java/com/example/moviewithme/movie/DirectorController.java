@@ -15,15 +15,21 @@ public class DirectorController {
         this.owlService = owlService;
     }
 
-    @PostMapping
-    public String addDirector(@RequestBody Director director) {
-        String ontologyId = "director" + director.getDirectorId();
-        owlService.addDirector(ontologyId, director.getFirstName(), director.getLastName());
-        owlService.saveOntology();
+    @PostMapping()
+    public String addDirector(@RequestBody MovieApiResponse.Crew director) {
+        if ("Director".equals(director.getJob())) {
+            String ontologyId = "director" + director.getId();
+            owlService.addDirector(ontologyId, director.getName());
+            owlService.saveOntology();
 
-        return "Dodano reżysera: " + director.getFirstName() + " " + director.getLastName() +
-                " z identyfikatorem: " + director.getDirectorId();
+            return "Dodano reżysera: " + director.getName() +
+                    " z identyfikatorem: " + director.getId();
+        } else {
+            return "Osoba o identyfikatorze " + director.getId() + " nie jest reżyserem.";
+        }
     }
+
+
     @PostMapping("/{directorId}/directs/{movieId}")
     public String addDirectingRelation(@PathVariable String directorId, @PathVariable String movieId) {
         String director = "director" + directorId;

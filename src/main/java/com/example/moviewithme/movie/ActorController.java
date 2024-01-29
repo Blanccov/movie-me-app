@@ -16,13 +16,13 @@ public class ActorController {
     }
 
     @PostMapping
-    public String addActor(@RequestBody Actor actor) {
-        String ontologyId = "actor" + actor.getActorId();
+    public String addActor(@RequestBody MovieApiResponse.Cast actor) {
+        String ontologyId = "actor" + actor.getId();
 
-        owlService.addActor(ontologyId, actor.getFirstName(), actor.getLastName());
+        owlService.addActor(ontologyId, actor.getName());
         owlService.saveOntology();
 
-        return "Dodano aktora: " + actor.getFirstName() + " " + actor.getLastName() + " z identyfikatorem: " + ontologyId;
+        return "Dodano aktora: " + actor.getName() + " z identyfikatorem: " + ontologyId;
     }
 
     @PostMapping("/{actorId}/actIn/{movieId}")

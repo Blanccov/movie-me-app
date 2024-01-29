@@ -1306,42 +1306,1062 @@
     
 
 
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor100 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Scott Speedman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor101 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Leonor Watling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor102710 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor102710">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Michael Wiseman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor103 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Mark Ruffalo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1077264 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1077264">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Relioues Webb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor10822 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor10822">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Stephen Dorff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor109 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Elijah Wood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11028 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11028">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>George Coulouris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11029 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11029">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Dorothy Comingore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor114 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Orlando Bloom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor116 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Keira Knightley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor118 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Geoffrey Rush</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11803 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11803">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Peter Greene</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Alexander Gould</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor121667 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor121667">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Everlast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12248 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12248">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Alec Guinness</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12799 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12799">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jeremy Piven</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Albert Brooks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor131 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor131">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jake Gyllenhaal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor132 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor132">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Scott MacDonald</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor133 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor133">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Peter Sarsgaard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor134 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor134">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jamie Foxx</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1357012 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1357012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Guy Garvey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor139 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor139">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Uma Thurman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14 -->
 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
-        <rdfs:label>John Doe</rdfs:label>
+        <rdfs:label>Ellen DeGeneres</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country1 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor140 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
-        <rdfs:label>United States</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor140">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Lucy Liu</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor141 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
-        <rdfs:label>United States</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor141">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>David Carradine</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#countrynull -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14518 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#countrynull">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#MovieProductionCountry"/>
-        <rdfs:label>United States</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14518">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Ray Collins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487342 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487342">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Lord James Blears</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487343 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487343">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Chip Fitzwater</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1709 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1709">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jack Davenport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759241 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759241">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Courtney Taylor-Taylor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759261 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759261">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Alex Kapranos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor176 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor176">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Kieran O&apos;Brien</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor177 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor177">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Margo Stilley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor188 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor188">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Michael Hynson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor190 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor190">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Clint Eastwood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor192 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor192">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Morgan Freeman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor193 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor193">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Gene Hackman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor194 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor194">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Richard Harris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1979 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1979">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Kevin Spacey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor198 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor198">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Dan Castellaneta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor199 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor199">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Julie Kavner</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Mark Hamill</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor200 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Nancy Cartwright</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor204 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor204">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Kate Winslet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor205 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Kirsten Dunst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor206 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor206">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jim Carrey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2155 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2155">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Thora Birch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2535 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2535">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Vivica A. Fox</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2555 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2555">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>David Proval</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2880 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2880">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Emilio Estevez</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2955 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2955">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Chris Cooper</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2975 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2975">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Laurence Fishburne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Harrison Ford</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor31 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Tom Hanks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3122 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Sammi Davis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Amanda de Cadenet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3124 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Valeria Golino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3125 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3125">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Madonna</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3126 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Ione Skye</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3127 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Lili Taylor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3129 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3129">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Tim Roth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3130 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jennifer Beals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3131 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3131">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Antonio Banderas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor32 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Robin Wright</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor33 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Gary Sinise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Mykelti Williamson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor35 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Sally Field</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3710 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3710">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Jaimz Woolvett</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Carrie Fisher</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor47 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor47">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Björk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor48">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Sean Bean</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor49 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor49">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Maria Bello</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Peter Cushing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor50 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor50">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Catherine Deneuve</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor51 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor51">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Richard Elfyn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor516 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor516">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Annette Bening</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor52 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor52">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>David Morse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor52422 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor52422">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Michael DeLorenzo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5293 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5293">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Willem Dafoe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor53 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor53">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Peter Stormare</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor54 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor54">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Maurice Roëves</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor55 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Abigail Stone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5586 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5586">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Yeardley Smith</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5587 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5587">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Hank Azaria</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5724 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5724">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Denis Leary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor589 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor589">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Daryl Hannah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor62 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor62">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Bruce Willis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor63 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor63">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Milla Jovovich</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor64 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor64">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Gary Oldman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor65 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor65">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Ian Holm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor66 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor66">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Chris Tucker</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor6748 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor6748">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Joel Grey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor7664 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor7664">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Joseph Cotten</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8210 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8210">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Wes Bentley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8211 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8211">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Mena Suvari</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8349 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8349">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Martin Sheen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8350 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8350">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Sam Bottoms</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8351 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8351">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Frederic Forrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8354 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8354">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Albert Hall</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor85 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor85">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Johnny Depp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor92 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor92">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Robert August</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor9777 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor9777">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Cuba Gooding Jr.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor98 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor98">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Sarah Polley</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor99 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Actor"/>
+        <rdfs:label>Amanda Plummer</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1351,27 +2371,427 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
-        <rdfs:label>Steven Spielberg</rdfs:label>
+        <rdfs:label>George Lucas</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre1 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1002623 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
-        <rdfs:label>Akcja</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1002623">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Tony Adler</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director100888 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Genre"/>
-        <rdfs:label>Komedia</rdfs:label>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director100888">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Chuck Jones</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1120536 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1120536">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Fernando Altschul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1341865 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1341865">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Ana Maria Quintana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1342669 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1342669">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Jayne-Ann Tenggren</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director138 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director138">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Quentin Tarantino</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director13930 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director13930">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Bruce Moriarty</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1434225 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1434225">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Susan Malerstein</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447342 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447342">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Matthew Schofield</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447450 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447450">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Ivaylo Anguelov</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director14773 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director14773">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Don Siegel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1646248 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1646248">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Gary Romolo Fiorelli</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1685556 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1685556">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Brian Bettwy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1704 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1704">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Gore Verbinski</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director172 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director172">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Michael Winterbottom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1776 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1776">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Francis Ford Coppola</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1844811 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1844811">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Susan J. Hellmann</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director197 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director197">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>David Silverman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director201 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Michel Gondry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2042 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2042">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Stephen Hopkins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2294 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2294">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Robert Rodriguez</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director24 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Robert Zemeckis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3110 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Allison Anders</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director34833 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director34833">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Timo Novotny</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director39 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Sam Mendes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3973 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3973">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Mark Egerton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director40 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Orson Welles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4014 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4014">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Paul W. S. Anderson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director42 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director42">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Lars von Trier</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director43 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director43">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>John Fawcett</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4385 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4385">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Sergio Leone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director59 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director59">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Luc Besson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director62543 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director62543">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Alan B. Curtiss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director71901 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director71901">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Douglas Aarniokoski</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director77162 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director77162">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Rodrigo García</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director7955 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director7955">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Albert Lozano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Lee Unkrich</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director801 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director801">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Michael Glawogger</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8500 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>John Ford</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director86 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director86">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Bruce Brown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director90 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director90">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Isabel Coixet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director992965 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director992965">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Director"/>
+        <rdfs:label>Mary Cybulski</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1381,12 +2801,453 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie1">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
-        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14"/>
-        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1"/>
-        <MovieWithMe:isGenreOf rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#genre2"/>
-        <MovieWithMe:isProducedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#country2"/>
-        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2"/>
         <MovieWithMe:hasTitle>Bone and Shadow</MovieWithMe:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12248"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor4"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter686"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter687"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-05-25T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.205</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Star Wars</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor118"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor13"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5293"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director7955"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-05-30T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.824</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Finding Nemo</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor31"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor32"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor33"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor34"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor35"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director13930"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1434225"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director24"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter26"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter27"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-06-23T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.477</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Forrest Gump</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1979"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2155"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor516"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8210"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8211"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1002623"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1341865"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director39"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2152"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-09-15T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.02</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>American Beauty</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11028"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor11029"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor14518"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor7664"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director40"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter30012"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1941-04-17T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.007</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Citizen Kane</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor47"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor50"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor52"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor53"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor6748"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director42"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter106200"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1190848"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-06-30T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Dancer in the Dark</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor48"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor49"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor51"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor54"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor55"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3973"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4014"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director43"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter44"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter45"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-09-28T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.748</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>The Dark</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie18 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor62"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor63"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor64"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor65"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor66"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director59"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter61"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter62460"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-05-02T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.539</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>The Fifth Element</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor100"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor101"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor103"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor98"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor99"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director90"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter97"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-03-07T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.921</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>My Life Without Me</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487342"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1487343"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor188"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor92"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director86"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-06-15T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.259</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>The Endless Summer</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor114"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor116"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor118"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1709"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor85"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1646248"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1704"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1844811"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1705"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-07-09T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.795</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Pirates of the Caribbean: The Curse of the Black Pearl</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie24 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor139"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor140"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor141"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2535"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor589"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director138"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2294"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter235120"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-10-10T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.969</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Kill Bill: Vol. 1</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor131"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor132"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor133"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor134"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2955"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1342669"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director39"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director62543"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter142"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-11-04T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.639</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Jarhead</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie27 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1357012"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759241"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor1759261"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor176"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor177"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director172"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-16T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.618</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>9 Songs</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2975"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8349"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8350"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8351"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor8354"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1776"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8328"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8643"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-08-15T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.283</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Apocalypse Now</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie33 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor190"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor192"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor193"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor194"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3710"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director14773"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director4385"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director8500"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7191"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1992-08-07T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.917</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Unforgiven</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie35 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor198"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor199"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor200"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5586"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5587"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447342"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1447450"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director197"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter5741"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-25T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.003</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>The Simpsons Movie</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie38 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor103"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor109"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor204"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor205"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor206"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director201"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director992965"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter202"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter222"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-03-19T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.101</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Eternal Sunshine of the Spotless Mind</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2555"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3124"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3129"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3130"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor3131"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director100888"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1120536"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1342669"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director138"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director1685556"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2294"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director3110"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director71901"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director77162"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1031288"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter148455"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter3111"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-09T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.796</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Four Rooms</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor10822"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor12799"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor2880"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor5724"/>
+        <MovieWithMe:isActingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#actor9777"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director2042"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1088307"/>
+        <MovieWithMe:isSreenWritingBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter52035"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-10-15T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.522</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Judgment Night</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#movie8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Movie"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director34833"/>
+        <MovieWithMe:isDirectedBy rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#director801"/>
+        <MovieWithMe:hasPremiere rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-01-01T00:00:00</MovieWithMe:hasPremiere>
+        <MovieWithMe:hasRate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</MovieWithMe:hasRate>
+        <MovieWithMe:hasTitle>Life in Loops (A Megacities RMX)</MovieWithMe:hasTitle>
+        <MovieWithMe:isSeries rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</MovieWithMe:isSeries>
     </owl:NamedIndividual>
     
 
@@ -1402,32 +3263,282 @@
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1031288 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1031288">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
-        <rdfs:label>Steven Spielberg</rdfs:label>
+        <rdfs:label>Tiffanie DeBartolo</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2 -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter106200 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter106200">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
-        <rdfs:label>Steven Spielberg</rdfs:label>
+        <rdfs:label>Sjón</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriternull -->
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1088307 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriternull">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1088307">
         <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
-        <rdfs:label>Steven Spielberg</rdfs:label>
+        <rdfs:label>Jere Cunningham</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1190848 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1190848">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Sean-Michael Smith</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter142 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter142">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>William Broyles Jr.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter148455 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter148455">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Ziad Doueiri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1705 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter1705">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Ted Elliott</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter202 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter202">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Charlie Kaufman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2152 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter2152">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Alan Ball</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter222 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Pierre Bismuth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter235120 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter235120">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Shou Tajima</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Winston Groom</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter27 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Eric Roth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter30012 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter30012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Herman J. Mankiewicz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter3111 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter3111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Alexandre Rockwell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter44 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter44">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Simon Maginn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter45 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter45">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Stephen Massicotte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter52035 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter52035">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Lewis Colick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter5741 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter5741">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Matt Groening</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter61 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter61">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Robert Mark Kamen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter62460 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter62460">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Jean Giraud</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter686 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter686">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Willard Huyck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter687 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter687">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Gloria Katz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Andrew Stanton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7191 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter7191">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>David Webb Peoples</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8328 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8328">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>John Milius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8643 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter8643">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Michael Herr</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter97 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#screenwriter97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#Screenwriter"/>
+        <rdfs:label>Nanci Kincaid</rdfs:label>
     </owl:NamedIndividual>
     
 

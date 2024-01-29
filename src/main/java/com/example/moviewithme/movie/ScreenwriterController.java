@@ -17,14 +17,14 @@ public class ScreenwriterController {
     }
 
     @PostMapping
-    public String addScreenwriter(@RequestBody Screenwriter screenwriter) {
-        String ontologyId = "screenwriter" + screenwriter.getScreenwriterId();
+    public String addScreenwriter(@RequestBody MovieApiResponse.Crew screenwriter) {
+        String ontologyId = "screenwriter" + screenwriter.getId();
 
-        owlService.addScreenwriter(ontologyId, screenwriter.getFirstName(), screenwriter.getLastName());
+        owlService.addScreenwriter(ontologyId, screenwriter.getName());
         owlService.saveOntology();
 
-        return "Dodano scenarzystę: " + screenwriter.getFirstName() + " " + screenwriter.getLastName()
-                + " z identyfikatorem: " + screenwriter.getScreenwriterId();
+        return "Dodano scenarzystę: " + screenwriter.getName()
+                + " z identyfikatorem: " + screenwriter.getId();
     }
 
     @PostMapping("/{screenwriterId}/writes/{movieId}")

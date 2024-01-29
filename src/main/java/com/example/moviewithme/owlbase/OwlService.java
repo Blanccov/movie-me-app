@@ -7,6 +7,7 @@ import org.semanticweb.owlapi.vocab.OWL2Datatype;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -26,7 +27,7 @@ public class OwlService {
         }
     }
 
-    public void addMovieIndividual(String movieId, String title, LocalDateTime premiere, boolean isSeries, float rate) {
+    public void addMovieIndividual(String movieId, String title, LocalDate premiere, boolean isSeries, float rate) {
         OWLNamedIndividual movieIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + movieId));
 
@@ -66,7 +67,7 @@ public class OwlService {
         }
     }
 
-    public void addActor(String actorId, String firstName, String lastName) {
+    public void addActor(String actorId, String name) {
         OWLNamedIndividual actorIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + actorId));
 
@@ -79,16 +80,15 @@ public class OwlService {
         if (!ontology.containsIndividualInSignature(actorIndividual.getIRI())) {
             OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(actorIndividual);
             OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(actorClass, actorIndividual);
-
-            String fullName = firstName + " " + lastName;
-            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(fullName));
+            ;
+            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(name));
             OWLAxiom labelAxiom = ontologyManager.getOWLDataFactory().getOWLAnnotationAssertionAxiom(actorIndividual.getIRI(), labelAnnotation);
 
             ontologyManager.addAxiom(ontology, declarationAxiom);
             ontologyManager.addAxiom(ontology, typeAxiom);
             ontologyManager.addAxiom(ontology, labelAxiom);
 
-            System.out.println("Dodano indywiduum do ontologii: " + actorIndividual + " z rdfs:label: " + fullName);
+            System.out.println("Dodano indywiduum do ontologii: " + actorIndividual + " z rdfs:label: " + name);
         } else {
             System.out.println("Indywiduum aktora już istnieje w ontologii: " + actorIndividual);
         }
@@ -121,7 +121,7 @@ public class OwlService {
         }
     }
 
-    public void addScreenwriter(String screenwriterId, String firstName, String lastName) {
+    public void addScreenwriter(String screenwriterId, String name) {
         OWLNamedIndividual screenwriterIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + screenwriterId));
 
@@ -135,15 +135,14 @@ public class OwlService {
             OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(screenwriterIndividual);
             OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(screenwriterClass, screenwriterIndividual);
 
-            String fullName = firstName + " " + lastName;
-            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(fullName));
+            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(name));
             OWLAxiom labelAxiom = ontologyManager.getOWLDataFactory().getOWLAnnotationAssertionAxiom(screenwriterIndividual.getIRI(), labelAnnotation);
 
             ontologyManager.addAxiom(ontology, declarationAxiom);
             ontologyManager.addAxiom(ontology, typeAxiom);
             ontologyManager.addAxiom(ontology, labelAxiom);
 
-            System.out.println("Dodano indywiduum do ontologii: " + screenwriterIndividual + " z rdfs:label: " + fullName);
+            System.out.println("Dodano indywiduum do ontologii: " + screenwriterIndividual + " z rdfs:label: " + name);
         } else {
             System.out.println("Indywiduum scenarzysty już istnieje w ontologii: " + screenwriterIndividual);
         }
@@ -175,7 +174,7 @@ public class OwlService {
         }
     }
 
-    public void addDirector(String directorId, String firstName, String lastName) {
+    public void addDirector(String directorId, String name) {
         OWLNamedIndividual directorIndividual = ontologyManager.getOWLDataFactory()
                 .getOWLNamedIndividual(IRI.create("http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#" + directorId));
 
@@ -189,15 +188,14 @@ public class OwlService {
             OWLAxiom declarationAxiom = ontologyManager.getOWLDataFactory().getOWLDeclarationAxiom(directorIndividual);
             OWLAxiom typeAxiom = ontologyManager.getOWLDataFactory().getOWLClassAssertionAxiom(directorClass, directorIndividual);
 
-            String fullName = firstName + " " + lastName;
-            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(fullName));
+            OWLAnnotation labelAnnotation = ontologyManager.getOWLDataFactory().getOWLAnnotation(labelProperty, ontologyManager.getOWLDataFactory().getOWLLiteral(name));
             OWLAxiom labelAxiom = ontologyManager.getOWLDataFactory().getOWLAnnotationAssertionAxiom(directorIndividual.getIRI(), labelAnnotation);
 
             ontologyManager.addAxiom(ontology, declarationAxiom);
             ontologyManager.addAxiom(ontology, typeAxiom);
             ontologyManager.addAxiom(ontology, labelAxiom);
 
-            System.out.println("Dodano indywiduum do ontologii: " + directorIndividual + " z rdfs:label: " + fullName);
+            System.out.println("Dodano indywiduum do ontologii: " + directorIndividual + " z rdfs:label: " + name);
         } else {
             System.out.println("Indywiduum reżysera już istnieje w ontologii: " + directorIndividual);
         }
@@ -323,9 +321,11 @@ public class OwlService {
         }
     }
 
-    private OWLLiteral formatDate(LocalDateTime dateTime) {
+    private OWLLiteral formatDate(LocalDate date) {
+        LocalDateTime dateTime = date.atStartOfDay(); // Dodane: Ustawienie godziny na północ
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
         String formattedDate = dateTime.format(formatter);
         return ontologyManager.getOWLDataFactory().getOWLLiteral(formattedDate, OWL2Datatype.XSD_DATE_TIME);
     }
+
 }

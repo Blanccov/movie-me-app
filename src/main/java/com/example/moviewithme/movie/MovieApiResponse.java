@@ -33,6 +33,17 @@ public class MovieApiResponse {
     @JsonProperty("credits")
     private Credits credits;
 
+    private boolean isSeries;
+
+    public boolean isSeries() {
+        return isSeries;
+    }
+
+    public boolean setSeries(boolean series) {
+        isSeries = series;
+        return series;
+    }
+
     public int getIndex() {
         return index;
     }
@@ -99,6 +110,9 @@ public class MovieApiResponse {
         @JsonProperty("iso_3166_1")
         private String iso31661;
 
+        @JsonProperty("name")
+        private String name;
+
         public String getIso31661() {
             return iso31661;
         }
@@ -137,6 +151,20 @@ public class MovieApiResponse {
         @JsonProperty("id")
         private Long id;
 
+        @JsonProperty("name")
+        private String name;
+
+        @JsonProperty("known_for_department")
+        private String job;
+
+        public String getName() {
+            return name;
+        }
+
+        public String getJob() {
+            return job;
+        }
+
         public Long getId() {
             return id;
         }
@@ -151,6 +179,20 @@ public class MovieApiResponse {
 
         @JsonProperty("id")
         private Long id;
+
+        @JsonProperty("name")
+        private String name;
+
+        @JsonProperty("known_for_department")
+        private String job;
+
+        public String getName() {
+            return name;
+        }
+
+        public String getJob() {
+            return job;
+        }
 
         public Long getId() {
             return id;
