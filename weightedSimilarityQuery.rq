@@ -1,0 +1,42 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX movie: <http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#>
+# Kalkulujemy ważoną Jaccard Similarity
+SELECT ?movie ?title ?weightedSimilarity WHERE {
+  {
+    SELECT ?movie (
+        (
+          (COUNT(DISTINCT ?commonGenre) * 0.2 + COUNT(DISTINCT ?commonActor) * 0.3 + COUNT(DISTINCT ?commonCountry) * 0.1 + COUNT(DISTINCT ?commonDirector) * 0.2 + COUNT(DISTINCT ?commonScreenwriter) * 0.2) /
+          (COUNT(DISTINCT ?genre) * 0.2 + COUNT(DISTINCT ?actor) * 0.3 + COUNT(DISTINCT ?country) * 0.1 + COUNT(DISTINCT ?director) * 0.2 + COUNT(DISTINCT ?screenwriter) * 0.2 + 1)
+        ) AS ?weightedSimilarity) WHERE {
+      # Dodaj relacje między filmem a gatunkiem, aktorem, itp.
+      ?movie movie:isGenreOf ?genre.
+      ?movie movie:isActingBy ?actor.
+      ?movie movie:isProducedBy ?country.
+      ?movie movie:isDirectedBy ?director.
+      ?movie movie:isSreenWritingBy ?screenwriter.
+
+      # Filtrujemy filmy, które mają co najmniej jeden taki gatunek, aktora, reżysera, scenarzystę lub kraj produkcji
+      ?movie movie:isGenreOf ?commonGenre .
+      ?commonGenre rdf:type movie:Genre .
+
+      ?movie movie:isActingBy ?commonActor .
+      ?commonActor rdf:type movie:Actor .
+
+      ?movie movie:isProducedBy ?commonCountry .
+      ?commonCountry rdf:type movie:MovieProductionCountry .
+
+      ?movie movie:isDirectedBy ?commonDirector .
+      ?commonDirector rdf:type movie:Director .
+
+      ?movie movie:isSreenWritingBy ?commonScreenwriter .
+      ?commonScreenwriter rdf:type movie:Screenwriter .
+
+      # Dodatkowe warunki filtrowania
+      FILTER (?commonGenre = ?genreFilter || ?commonActor = ?actorFilter || ?commonCountry = ?countryFilter || ?commonDirector = ?directorFilter || ?commonScreenwriter = ?screenwriterFilter)
+    } GROUP BY ?movie
+  }
+  ?movie movie:hasTitle ?title .
+}
+ORDER BY DESC(?weightedSimilarity)
+LIMIT 10000
