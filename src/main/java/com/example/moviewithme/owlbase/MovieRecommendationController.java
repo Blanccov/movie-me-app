@@ -65,7 +65,7 @@ public class MovieRecommendationController {
                 "  ?movie movie:hasTitle ?title .\n" +
                 "}\n" +
                 "ORDER BY DESC(?weightedSimilarity)\n" +
-                "LIMIT 20";
+                "LIMIT 10";
 
         // Create an empty list to store movie recommendations
         List<MovieRecommendation> movieRecommendations = new ArrayList<>();
