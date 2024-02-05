@@ -46,7 +46,6 @@ public class MovieController {
                         movieApiResponse.getVoteAverage()
                 );
 
-                // Dodaj reżysera, jeśli istnieje
                 List<MovieApiResponse.Crew> crewList = movieApiResponse.getCredits().getCrew();
                 if (crewList != null) {
                     for (MovieApiResponse.Crew crewMember : crewList) {

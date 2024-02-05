@@ -14,64 +14,72 @@ import java.util.List;
 @RequestMapping("/movie-recommendations")
 public class MovieRecommendationController {
 
-    // Endpoint to get movie recommendations
     @GetMapping
     public List<MovieRecommendation> getMovieRecommendations(
-            @RequestParam String genreFilter,
-            @RequestParam String actorFilter,
-            @RequestParam String countryFilter,
-            @RequestParam String directorFilter,
-            @RequestParam String screenwriterFilter
+            @RequestParam List<String> neighborFilter
     ) {
-        // SPARQL query string
         String sparqlQuery = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
                 "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
                 "PREFIX movie: <http://www.semanticweb.org/dmade/ontologies/2024/0/MovieWithMe#>\n" +
-                "# Kalkulujemy ważoną Jaccard Similarity\n" +
-                "SELECT ?movie ?title ?weightedSimilarity WHERE {\n" +
-                "  {\n" +
-                "    SELECT ?movie (\n" +
-                "        (\n" +
-                "          (COUNT(DISTINCT ?commonGenre) * 0.1 + COUNT(DISTINCT ?commonActor) * 0.3 + COUNT(DISTINCT ?commonCountry) * 0.1 + COUNT(DISTINCT ?commonDirector) * 0.2 + COUNT(DISTINCT ?commonScreenwriter) * 0.3) /\n" +
-                "          (COUNT(DISTINCT ?genre) * 0.1 + COUNT(DISTINCT ?actor) * 0.3 + COUNT(DISTINCT ?country) * 0.1 + COUNT(DISTINCT ?director) * 0.2 + COUNT(DISTINCT ?screenwriter) * 0.3 + 1)\n" +
-                "        ) AS ?weightedSimilarity) WHERE {\n" +
-                "      # Dodaj relacje między filmem a gatunkiem, aktorem, itp.\n" +
-                "      ?movie movie:isGenreOf ?genre.\n" +
-                "      ?movie movie:isActingBy ?actor.\n" +
-                "      ?movie movie:isProducedBy ?country.\n" +
-                "      ?movie movie:isDirectedBy ?director.\n" +
-                "      ?movie movie:isSreenWritingBy ?screenwriter.\n" +
+                "SELECT ?movie ?title ((COUNT(DISTINCT ?commonNeighbor) / (COUNT(DISTINCT ?actor) + COUNT(DISTINCT ?director) + COUNT(DISTINCT ?screenwriter) + COUNT(DISTINCT ?genre) + COUNT(DISTINCT ?country))) AS ?weightedSimilarity)\n" +
+                "(GROUP_CONCAT(DISTINCT ?commonNeighborName; SEPARATOR=\", \") AS ?commonNeighbors)\n" +
+                "WHERE {\n" +
+                "   # Select the movie and its common neighbors\n" +
+                "   ?movie movie:isActingBy ?actor.\n" +
+                "   ?movie movie:isDirectedBy ?director.\n" +
+                "   ?movie movie:isSreenWritingBy ?screenwriter.\n" +
+                "   ?movie movie:isGenreOf ?genre.\n" +
+                "   ?movie movie:isProducedBy ?country.\n" +
                 "\n" +
-                "      # Filtrujemy filmy, które mają co najmniej jeden taki gatunek, aktora, reżysera, scenarzystę lub kraj produkcji\n" +
-                "      ?movie movie:isGenreOf ?commonGenre .\n" +
-                "      ?commonGenre rdf:type movie:Genre .\n" +
+                "   # Identify common neighbors\n" +
+                "   {\n" +
+                "      ?movie movie:isActingBy ?commonNeighbor .\n" +
+                "      ?commonNeighbor rdf:type movie:Actor .\n" +
+                "      ?commonNeighbor rdfs:label ?commonNeighborName.\n" +
+                "   }\n" +
+                "   UNION\n" +
+                "   {\n" +
+                "      ?movie movie:isDirectedBy ?commonNeighbor .\n" +
+                "      ?commonNeighbor rdf:type movie:Director .\n" +
+                "      ?commonNeighbor rdfs:label ?commonNeighborName.\n" +
+                "   }\n" +
+                "   UNION\n" +
+                "   {\n" +
+                "      ?movie movie:isSreenWritingBy ?commonNeighbor .\n" +
+                "      ?commonNeighbor rdf:type movie:Screenwriter .\n" +
+                "      ?commonNeighbor rdfs:label ?commonNeighborName.\n" +
+                "   }\n" +
+                "   UNION\n" +
+                "   {\n" +
+                "      ?movie movie:isGenreOf ?commonNeighbor .\n" +
+                "      ?commonNeighbor rdf:type movie:Genre .\n" +
+                "      ?commonNeighbor rdfs:label ?commonNeighborName.\n" +
+                "   }\n" +
+                "   UNION\n" +
+                "   {\n" +
+                "      ?movie movie:isProducedBy ?commonNeighbor .\n" +
+                "      ?commonNeighbor rdf:type movie:MovieProductionCountry .\n" +
+                "      ?commonNeighbor rdfs:label ?commonNeighborName.\n" +
+                "   }\n" +
                 "\n" +
-                "      ?movie movie:isActingBy ?commonActor .\n" +
-                "      ?commonActor rdf:type movie:Actor .\n" +
-                "\n" +
-                "      ?movie movie:isProducedBy ?commonCountry .\n" +
-                "      ?commonCountry rdf:type movie:MovieProductionCountry .\n" +
-                "\n" +
-                "      ?movie movie:isDirectedBy ?commonDirector .\n" +
-                "      ?commonDirector rdf:type movie:Director .\n" +
-                "\n" +
-                "      ?movie movie:isSreenWritingBy ?commonScreenwriter .\n" +
-                "      ?commonScreenwriter rdf:type movie:Screenwriter .\n" +
-                "\n" +
-                "      # Dodatkowe warunki filtrowania\n" +
-                "      FILTER (?commonGenre = " + genreFilter + " || ?commonActor = " + actorFilter + " || ?commonCountry = " + countryFilter + " || ?commonDirector = " + directorFilter + " || ?commonScreenwriter = " + screenwriterFilter + ")\n" +
-                "    } GROUP BY ?movie\n" +
-                "  }\n" +
+                "   # Additional filtering conditions\n" +
+                "   FILTER (\n";
+
+        for (String filter : neighborFilter) {
+            sparqlQuery += "      ?commonNeighbor = movie:" + filter + " || ";
+        }
+
+        sparqlQuery = sparqlQuery.substring(0, sparqlQuery.length() - 4) + "\n   )\n" +
                 "  ?movie movie:hasTitle ?title .\n" +
                 "}\n" +
+                "\n" +
+                "GROUP BY ?movie ?title\n" +
                 "ORDER BY DESC(?weightedSimilarity)\n" +
                 "LIMIT 10";
 
-        // Create an empty list to store movie recommendations
         List<MovieRecommendation> movieRecommendations = new ArrayList<>();
 
-        // Execute the SPARQL query and process the results
-        try (QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://localhost:3030/test1/query", sparqlQuery)) {
+        try (QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://localhost:3030/test4/query", sparqlQuery)) {
             ResultSet resultSet = queryExecution.execSelect();
             while (resultSet.hasNext()) {
                 QuerySolution solution = resultSet.next();
@@ -79,7 +87,6 @@ public class MovieRecommendationController {
                 String title = solution.get("title").toString();
                 double weightedSimilarity = solution.get("weightedSimilarity").asLiteral().getDouble();
 
-                // Create a MovieRecommendation object and add it to the list
                 MovieRecommendation movieRecommendation = new MovieRecommendation(movieUri, title, weightedSimilarity);
                 movieRecommendations.add(movieRecommendation);
             }

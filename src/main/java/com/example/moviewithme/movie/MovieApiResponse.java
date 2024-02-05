@@ -105,7 +105,6 @@ public class MovieApiResponse {
     }
 
 
-    // Klasa reprezentująca pole "credits"
     public static class Credits {
 
         private List<Cast> cast;
@@ -128,7 +127,6 @@ public class MovieApiResponse {
         }
     }
 
-    // Klasa reprezentująca elementy z tablicy "cast" w polu "credits"
     public static class Cast {
 
         @JsonProperty("id")
@@ -157,7 +155,6 @@ public class MovieApiResponse {
         }
     }
 
-    // Klasa reprezentująca elementy z tablicy "crew" w polu "credits"
     public static class Crew {
 
         @JsonProperty("id")

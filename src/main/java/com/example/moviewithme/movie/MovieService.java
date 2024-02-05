@@ -8,6 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -30,24 +31,20 @@ public class MovieService {
         List<MovieApiResponse> movieResponses = new ArrayList<>();
 
         for (String movieId : movieIds) {
-            if (successfulRequestsCounter >= 500) {
-                // Zatrzymaj kod po wykonaniu 2 prawidłowych żądań
+            if (successfulRequestsCounter >= 1000) {
                 break;
             }
 
             String url = tmdbApiUrl + movieId + "?api_key=" + apiKey + "&append_to_response=credits";
 
             try {
-                // Retrieve data from TMDB API using restTemplate
                 MovieApiResponse movieResponse = restTemplate.getForObject(url, MovieApiResponse.class);
 
                 if (movieResponse != null && "en".equals(movieResponse.getOriginalLanguage()) && movieResponse.getReleaseDate() != null && movieResponse.getReleaseDate().isAfter(LocalDate.of(2010, 1, 1))) {
-                    // Limit the number of cast members to the first 5
                     if (movieResponse.getCredits() != null && movieResponse.getCredits().getCast() != null) {
                         movieResponse.getCredits().setCast(movieResponse.getCredits().getCast().subList(0, Math.min(5, movieResponse.getCredits().getCast().size())));
                     }
 
-                    // Filter and limit the crew members based on known_for_department
                     if (movieResponse.getCredits() != null && movieResponse.getCredits().getCrew() != null) {
                         List<MovieApiResponse.Crew> directingCrew = movieResponse.getCredits().getCrew().stream()
                                 .filter(crew -> "Directing".equals(crew.getJob()))
@@ -59,7 +56,6 @@ public class MovieService {
                                 .limit(2)
                                 .collect(Collectors.toList());
 
-                        // Combine the filtered crew lists
                         List<MovieApiResponse.Crew> combinedCrew = new ArrayList<>();
                         combinedCrew.addAll(directingCrew);
                         combinedCrew.addAll(writingCrew);
@@ -67,8 +63,12 @@ public class MovieService {
                         movieResponse.getCredits().setCrew(combinedCrew);
                     }
 
+                    if (movieResponse.getProductionCountries() != null && !movieResponse.getProductionCountries().isEmpty()) {
+                        movieResponse.setProductionCountries(Collections.singletonList(movieResponse.getProductionCountries().get(0)));
+                    }
+
                     movieResponses.add(movieResponse);
-                    successfulRequestsCounter++; // Zwiększ licznik dla prawidłowych żądań
+                    successfulRequestsCounter++;
                 } else if (movieResponse != null) {
                     System.out.println("Movie with ID " + movieId + " is not in English.");
                 } else {

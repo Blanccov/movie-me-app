@@ -32,7 +32,7 @@ public class MovieQueryService {
     private List<ActorResult> executeQueryForActors(String sparqlQuery) {
         List<ActorResult> results = new ArrayList<>();
 
-        try (QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://localhost:3030/test1/query", sparqlQuery)) {
+        try (QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://localhost:3030/test4/query", sparqlQuery)) {
             ResultSet resultSet = queryExecution.execSelect();
             while (resultSet.hasNext()) {
                 QuerySolution solution = resultSet.next();
@@ -46,7 +46,6 @@ public class MovieQueryService {
     }
 
     private String getShortUri(String uri) {
-        // Przycięcie URI do ostatniej części po znaku #
         return uri.substring(uri.lastIndexOf("#") + 1);
     }
 }
